@@ -34,11 +34,11 @@ div p {
 	font-size: 25px;
 }
 
-input[type=text] {
+input[type="text"] {
 	background-color: gray;
 }
 
-div:nth-of-type(3)>p{
+div:nth-of-type(3) p{
 	background-color: pink;
 }
 
@@ -49,4 +49,28 @@ div:nth-of-type(3) p:nth-of-type(2) {
 div:nth-of-type(3) em{
 	color: white;
 	font-size: 20px;
+}
+
+input[type=checkbox]:checked {
+margin-left: 50px;	
+}
+
+label{
+	text-transform: uppercase;
+}
+
+#special:first-letter{
+	color:#00FF00;
+	font-size: 100px;
+}
+h1:hover{
+	color:#0000FF;
+}
+
+a:visited{
+	color: gray;
+}
+
+p::nth-letter(2){
+  color:red
 }
