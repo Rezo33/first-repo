@@ -33,8 +33,7 @@
 	width: 250px;
 }
 
-
-p {
+.iop {
 	font-size: 10px;
 	color: white;
 	width: 250px;
@@ -105,7 +104,7 @@ input.form-control {
 }
 
 .section {
-	height: 50vh;
+	height: 40vh;
 	position: relative;
 }
 
@@ -123,4 +122,49 @@ input.form-control {
 	position: absolute;
 	top: 20%;
 	height: 80%;
+}
+
+.adoua{
+	height: 40vh;
+	background-color: #2e2f49;
+}
+
+.paras{
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding-top: 7vh;
+	padding-bottom: 2vh;
+}
+
+.continut{
+	color: #FFFFFF;
+	font-size: 10px;
+	/*line-height:1px; hz dc nu lucreaza*/
+}
+
+.trei{
+	height: 40vh;
+	background-color: #c94a66;
+	padding-top: 10vh;
+}
+
+.titlu{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+.poi{
+	font-size: 10px;
+	color: white;
+	text-align: center;
+}
+
+.btn-outline{
+	background-color: #FFFFFF;
+	color: #c94a66;
+	border-radius: 30px;
+	display: block;
+	margin: auto;
+	/*hz cum sa o fac mai scurta (*/
 }
