@@ -63,3 +63,24 @@ body{
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+.patrat{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: qwe;
+	animation-duration: 5s;
+	animation-fill-mode: backwards;
+	animation-timing-function: ease-in-out;
+	position: relative;
+	animation-iteration-count: infinite;
+
+
+}
+
+@keyframes qwe{
+	0%{left:0;background-color: red;transform:rotate(0) scale(1);}
+	50%{left:200px;background-color: yellow; border-radius: 50%;transform:rotate(340deg) scale(2);}
+	100%{left:0;background-color: red;transform:rotate(0) scale(1);}
+}
+
